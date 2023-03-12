@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to Explory. Explore the world with Explory">
+  <title>Explore With Explory</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid   ">
+   
+
+
+    <a class="navbar-brand btn  active fw-bold fs-1" href="#">Explory</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div class="collapse navbar-collapse px-4 fs-5" id="navbarSupportedContent">
+
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li nav-item><a href="/index.html" class="nav-link px-2 link-dark ">Home</a></li>
+      <li nav-item><a href="/about.html" class="nav-link px-2 link-dark active text-warning">About</a></li>
+      <li nav-item><a href="/offers.html" class="nav-link px-2 link-dark">Offers</a></li>
+      <li nav-item><a href="/destination.html" class="nav-link px-2 link-dark">Destination</a></li>
+      <li nav-item><a href="/contact.html" class="nav-link px-2 link-dark">Contact Us</a></li>
+    </ul>
+
+    <div class="col-md-3 text-end fs-5">
+      <button class="btn btn-outline-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Book Now</button>
+    
+  </div>
+</div> 
+</div>
+</nav>
+
+
+<!-- offcanvas for book now -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header">
+  <h5 class="offcanvas-title" id="offcanvasRightLabel">Book Now</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body fw-bold">
+  <div class="col-sm-12">
+    <label for="firstName" class="form-label">First name</label>
+    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+    
+  </div>
+  <div class="col-sm-12">
+    <label for="firstName" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="LfirstName" placeholder="" value="" required="">
+    
+  </div>
+  <div class="col-sm-12">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="efirstName" placeholder="@" value="" required="">
+    
+  </div>
+  <div class="col-sm-12">
+    <label for="Number" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="nfirstName" placeholder="" value="" required="">
+    
+  </div>
+  <div class="col-md-12">
+    <label for="country" class="form-label">Your Country</label>
+    <select class="form-select" id="ccountry" required="">
+      <option value="">Choose...</option>
+      <option>Pakistan</option>
+      <option>USA</option>
+      <option>England</option>
+      <option>Cape town</option>
+      <option>UAE</option>
+      <option>Canada</option>
+      <option>Spain</option>
+      <option>Turkey</option>
+      <option>Indonesia</option>
+      <option>India</option>
+      <option>See More</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid country.
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <label for="date" class="form-label">Departure Date&Time </label>
+    <input type="date" class="form-control" id="dfirstName" placeholder="Departure Date" value="" required="">
+   
+    <input type="time" class="form-control" id="tfirstName" placeholder="Departure Time" value="" required="">
+    
+  </div>
+  <div class="col-sm-12">
+    <label for="date" class="form-label">Return Date&Time</label>
+    <input type="date" class="form-control" id="drfirstName" placeholder="Retrun date" value="" required="">
+    
+    <input type="time" class="form-control" id="tfirstName" placeholder=" Return Time" value="" required="">
+     </div>
+     <div class="col-md-12">
+      <label for="destination" class="form-label">Your Destination</label>
+      <select class="form-select" id="cccountry" required="">
+        <option value="">Choose...</option>
+        <option>Paris, France</option>
+        <option>Bali, Indonesia</option>
+        <option>London, England</option>
+        <option>Cape town, South Africa</option>
+        <option>Dubai, UAE</option>
+        <option>Toronto, Canada</option>
+        <option>Madrid, Spain</option>
+        <option>Istanbul, Turkey</option>
+        <option>Bali, Indonesia</option>
+        <option>Hunza, Pakistan</option>
+        <option>See More</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid country.
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <label for="Number" class="form-label"> How Many Adults</label>
+      <input type="number" class="form-control" id="nnfirstName" placeholder="" value="" required="">
+      
+    </div>
+    <div class="col-sm-12">
+      <label for="Number" class="form-label"> How Many Children</label>
+      <input type="number" class="form-control" id="nnnfirstName" placeholder="" value="" required="">
+      
+    </div>
+    <div class="my-4 text-center">
+      <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+    
+    </div>
+  
+
+</div>
+</div>
+<!-- offcanvas for book now End -->
+<hr>
+
+<div class="container">
+  <div class="row featurette">
+    <div class="col-md-7 my-4">
+      <h2 class="featurette-heading fw-normal lh-1 text-center ">About Us <span class="text-muted"></span></h2>
+      <p class="lead text-start my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est saepe quos debitis, incidunt velit. Quis, voluptatum optio cum deleniti officia repellat fugiat laborum pariatur? Ducimus ipsum id unde aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est saepe quos debitis, incidunt velit. Quis, voluptatum optio cum deleniti officia repellat fugiat laborum pariatur? Ducimus ipsum id unde aperiam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est saepe quos debitis, incidunt velit. Quis, voluptatum optio cum deleniti officia repellat fugiat laborum pariatur? Ducimus ipsum id unde aperiam!</p>
+    </div>
+    <div class="col-md-5 my-4">
+      <img class=" bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="about.jpg" alt="">
+    </div>
+  </div>
+  </div>
+
+  <div class="bg-image" style="background-image: url('moutains.jpg');
+  height: 100%">
+
+<div class="container px-4 py-5" id="hanging-icons">
+  <h2 class="pb-2 text-center fw-bold fs-1 text-light">Our Services</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div class="text-light">
+        <h3 class="fs-2">Comfortable Journey</h3>
+        <p>Life is a journey and we are always on the move, as soon as we get up in the morning. Yes, whether it is commuting to the office daily or undertaking journey out of professional or personal necessities at periodical intervals.</p>
+        <a href="#" class="btn btn-success">
+          Read More
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+    
+       
+      <div class="text-light">
+        <h3 class="fs-2">Weekend trips</h3>
+        <p>Saturday and Sunday, or Friday evening until Sunday night; the part of the week in which many people living in the West Saturday and Sunday, or Friday evening until Sunday night; the part of the week in which many people.</p>
+        <a href="#" class="btn btn-success">
+          Read More
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      
+      
+      <div class="text-light">
+        <h3 class="fs-2">Plain Tickets</h3>
+        <p>Life is a journey and we are always on the move, as soon as we get up in the morning. Yes, whether it is commuting to the office daily or undertaking journey out of professional or personal necessities at periodical intervals.</p>
+        <a href="#" class="btn btn-success">
+          Read More
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+<hr>
+<div class="bg-image" style="background-image: url('santorini.jpg');
+height: 100%">
+
+<div class="container">
+<footer class="py-5">
+<div class="row">
+<div class="col-6 col-md-2 mb-3">
+ <h5>Content</h5>
+ <ul class="nav flex-column">
+   <li><a href="#" class="nav-link px-2 link-dark">Home</a></li>
+<li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+<li><a href="#" class="nav-link px-2 link-dark">Offers</a></li>
+<li><a href="#" class="nav-link px-2 link-dark">Destination</a></li>
+<li><a href="#" class="nav-link px-2 link-dark">Contact Us</a></li>
+ </ul>
+</div>
+
+<div class="col-6 col-md-2 mb-3">
+ <h5>Quick Links</h5>
+ <ul class="nav flex-column">
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Accomodation</a></li>
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Dining & Bar</a></li>
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Restaurants</a></li>
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Beach & Resorts</a></li>
+   
+ </ul>
+</div>
+
+<div class="col-6 col-md-2 mb-3">
+ <h5>Destination</h5>
+ <ul class="nav flex-column">
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">England</a></li>
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Switzerland</a></li>
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Italy</a></li>
+   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Wales</a></li>
+   
+ </ul>
+</div>
+
+<div class="col-md-5 offset-md-1 mb-3">
+ <form>
+   <h5>Subscribe to our newsletter</h5>
+   <p>Monthly digest of what's new and exciting from us.</p>
+   <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+     <label for="newsletter1" class="visually-hidden">Email address</label>
+     <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+     <button class="btn btn-primary" type="button">Subscribe</button>
+   </div>
+ </form>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="d-flex flex-column flex-sm-row justify-content-between py-4  border-top">
+<p>© 2022 Company, Inc. All rights reserved.</p>
+
+</div>
+</footer>
+</div>
+</div>
+    
+   
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
